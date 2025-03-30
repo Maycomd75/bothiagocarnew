@@ -1,0 +1,78 @@
+[
+  {
+    "nomeCliente": "meu",
+    "placa": "fgt",
+    "modelo": "gdjk",
+    "ano": "2738",
+    "servicos": [
+      {
+        "nome": "Alinhamento",
+        "preco": 150
+      }
+    ],
+    "total": 150
+  },
+  {
+    "nomeCliente": "maycom",
+    "placa": "fdigh9079",
+    "modelo": "bora",
+    "ano": "2829",
+    "servicos": [
+      {
+        "nome": "Alinhamento",
+        "preco": 150
+      }
+    ],
+    "total": 150
+  },
+  {
+    "nomeCliente": "maycom",
+    "placa": "fdi5f08",
+    "modelo": "voy",
+    "ano": "2012",
+    "servicos": [
+      {
+        "nome": "Alinhamento",
+        "preco": 150
+      },
+      {
+        "nome": "Balanceamento",
+        "preco": 100
+      },
+      {
+        "nome": "Troca de Óleo",
+        "preco": 120
+      },
+      {
+        "nome": "Troca de Filtro",
+        "preco": 80
+      }
+    ],
+    "total": 450
+  },
+  {
+    "nomeCliente": "maycom",
+    "placa": "fdi5f08",
+    "modelo": "gol",
+    "ano": "2024",
+    "servicos": [
+      {
+        "nome": "Alinhamento",
+        "preco": 150
+      },
+      {
+        "nome": "Troca de Óleo",
+        "preco": 120
+      },
+      {
+        "nome": "Suspensão",
+        "preco": 400
+      },
+      {
+        "nome": "Balanceamento",
+        "preco": 100
+      }
+    ],
+    "total": 770
+  }
+]

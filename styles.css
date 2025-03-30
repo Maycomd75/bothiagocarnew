@@ -1,0 +1,87 @@
+/* Estilos Globais */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1; /* Fundo branco */
+  }
+  
+  .container-fluid {
+    margin-top: 20px;
+  }
+  
+  h1, h3 {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .card-header {
+    font-weight: bold;
+  }
+  
+  /* Estilos para o QR Code */
+  #qrcode {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  /* Estilo para o chat flutuante */
+  #chat-flutuante {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #0c0708fa; /* Vermelho */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  #chat-flutuante:hover {
+    background-color: #020202e6; /* Vermelho mais escuro */
+    transform: scale(1.1);
+  }
+  
+  /* Estilos para os botões e seções interativas */
+  .btn-light, .btn-danger {
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-light:hover, .btn-danger:hover {
+    background-color: #f39c12;
+  }
+  
+  .list-group-item-action.active {
+    background-color: #868e96;
+    border-color: #868e96;
+  }
+  
+  .list-group-item:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+  }
+  
+  /* Animação para os cards */
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Seção de rodapé */
+  footer {
+    background-color: #343a40;
+  }
+  
